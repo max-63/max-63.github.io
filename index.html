@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="fr" class="scroll-smooth">
+
 <head>
   <meta charset="utf-8">
+  <meta name="google-site-verification" content="LoeH1rIQY2DWvAmoMWrqubrJVK-ydQX_hWZYrtcluKs" />
   <title>AdrienDev — Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Portfolio d'Adrien — Développeur Full Stack, TypeScript, Rust, Tailwind CSS & Python.">
+  <meta name="description"
+    content="Portfolio d'Adrien — Développeur Full Stack, TypeScript, Rust, Tailwind CSS & Python.">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -25,38 +28,53 @@
   </script>
   <style>
     @keyframes blink {
-      0%, 100% { opacity: 1; }
-      50% { opacity: 0; }
+
+      0%,
+      100% {
+        opacity: 1;
+      }
+
+      50% {
+        opacity: 0;
+      }
     }
+
     .console-cursor {
       animation: blink 0.8s step-start infinite;
     }
+
     /* Style pour modal zoom */
     .modal-backdrop {
       backdrop-filter: blur(8px);
     }
   </style>
 </head>
+
 <body class="bg-gray-900 text-white font-sans antialiased selection:bg-blue-600 selection:text-white">
 
   <!-- ==================== HERO / A PROPOS ==================== -->
-  <section class="min-h-screen bg-[#111827] flex flex-col justify-center items-center text-center text-white relative px-4 sm:px-6 pt-12 pb-24">
+  <section
+    class="min-h-screen bg-[#111827] flex flex-col justify-center items-center text-center text-white relative px-4 sm:px-6 pt-12 pb-24">
     <div class="max-w-3xl flex flex-col items-center">
       <!-- Photo de Profil (comme la capture : propre, sans contour lourd ni halo bleu) -->
-      <div class="flex items-center justify-center w-44 h-44 sm:w-48 sm:h-48 rounded-full overflow-hidden mb-8 shadow-xl">
+      <div
+        class="flex items-center justify-center w-44 h-44 sm:w-48 sm:h-48 rounded-full overflow-hidden mb-8 shadow-xl">
         <img src="pp.png" alt="Photo de profil Adrien" class="w-full h-full object-cover">
       </div>
 
       <!-- Titre & Présentation -->
       <h1 class="text-3xl sm:text-5xl font-black mb-6 tracking-tight">À propos de moi</h1>
       <p class="text-lg sm:text-xl font-medium text-gray-200 mb-6">Je m'appelle Adrien.</p>
-      
+
       <p class="text-base sm:text-lg text-gray-300 mb-5 leading-relaxed max-w-2xl font-normal">
-        Développeur autodidacte depuis plusieurs années, je suis passionné par le développement web et la création de projets interactifs. Mon parcours a commencé avec des petits projets personnels, où j'explorais HTML, CSS et JavaScript pour donner vie à mes idées.
+        Développeur autodidacte depuis plusieurs années, je suis passionné par le développement web et la création de
+        projets interactifs. Mon parcours a commencé avec des petits projets personnels, où j'explorais HTML, CSS et
+        JavaScript pour donner vie à mes idées.
       </p>
 
       <p class="text-base sm:text-lg text-gray-400 mb-8 leading-relaxed max-w-2xl font-normal">
-        Aujourd'hui, je conçois des interfaces modernes et des outils adaptés à des environnements dynamiques. Curieux et motivé, j'aime relever de nouveaux défis techniques tout en apprenant constamment de nouvelles technologies.
+        Aujourd'hui, je conçois des interfaces modernes et des outils adaptés à des environnements dynamiques. Curieux
+        et motivé, j'aime relever de nouveaux défis techniques tout en apprenant constamment de nouvelles technologies.
       </p>
 
       <!-- Terminal Typewriter Console (texte épuré directement sur le fond, police large et curseur souligné) -->
@@ -78,7 +96,7 @@
   <section id="competences" class="py-20 bg-[#1f2937] flex justify-center text-center text-white">
     <div class="max-w-5xl px-6 w-full">
       <h2 class="text-3xl sm:text-4xl font-extrabold mb-12 tracking-tight">Mes compétences</h2>
-      
+
       <div id="skills-grid" class="flex flex-wrap justify-center gap-6 sm:gap-8 items-center">
         <!-- Rempli dynamiquement en JS avec les logos SVG/PNG -->
       </div>
@@ -102,35 +120,42 @@
 
 
   <!-- ==================== CONTACT ==================== -->
-  <section id="contact" class="py-20 bg-gray-800 flex flex-col justify-center items-center text-center text-white border-t border-gray-700/50">
+  <section id="contact"
+    class="py-20 bg-gray-800 flex flex-col justify-center items-center text-center text-white border-t border-gray-700/50">
     <div class="max-w-4xl px-6 w-full">
       <h2 class="text-3xl sm:text-4xl font-black mb-12 tracking-tight">Contactez-moi</h2>
 
       <div class="grid sm:grid-cols-2 gap-8">
         <!-- Réseaux -->
-        <div class="bg-gray-900/80 rounded-3xl border border-gray-700/60 p-8 shadow-xl hover:border-gray-600 transition flex flex-col items-center justify-center">
+        <div
+          class="bg-gray-900/80 rounded-3xl border border-gray-700/60 p-8 shadow-xl hover:border-gray-600 transition flex flex-col items-center justify-center">
           <h3 class="text-xl sm:text-2xl font-bold mb-6 flex items-center gap-2">
             <span>🌐</span> Mes réseaux
           </h3>
           <div class="flex justify-center items-center gap-6">
-            <a href="https://github.com/max-63" target="_blank" rel="noopener noreferrer" title="GitHub" class="hover:scale-110 transition-transform">
+            <a href="https://github.com/max-63" target="_blank" rel="noopener noreferrer" title="GitHub"
+              class="hover:scale-110 transition-transform">
               <img src="github.svg" alt="GitHub" class="w-12 h-12">
             </a>
-            <a href="https://instagram.com/adriencourault2020" target="_blank" rel="noopener noreferrer" title="Instagram" class="hover:scale-110 transition-transform">
+            <a href="https://instagram.com/adriencourault2020" target="_blank" rel="noopener noreferrer"
+              title="Instagram" class="hover:scale-110 transition-transform">
               <img src="instagramm.svg" alt="Instagram" class="w-12 h-12">
             </a>
-            <a href="https://discord.com/users/1125086940409122836" target="_blank" rel="noopener noreferrer" title="Discord" class="hover:scale-110 transition-transform">
+            <a href="https://discord.com/users/1125086940409122836" target="_blank" rel="noopener noreferrer"
+              title="Discord" class="hover:scale-110 transition-transform">
               <img src="discord.svg" alt="Discord" class="w-12 h-12">
             </a>
           </div>
         </div>
 
         <!-- Email -->
-        <div class="bg-gray-900/80 rounded-3xl border border-gray-700/60 p-8 shadow-xl hover:border-gray-600 transition flex flex-col items-center justify-center">
+        <div
+          class="bg-gray-900/80 rounded-3xl border border-gray-700/60 p-8 shadow-xl hover:border-gray-600 transition flex flex-col items-center justify-center">
           <h3 class="text-xl sm:text-2xl font-bold mb-6 flex items-center gap-2">
             <span>📧</span> Envoyer un mail
           </h3>
-          <a href="mailto:adriencouralt@outlook.fr" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-3.5 px-8 rounded-xl transition shadow-lg shadow-blue-500/20 hover:scale-105 active:scale-95">
+          <a href="mailto:adriencouralt@outlook.fr"
+            class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-3.5 px-8 rounded-xl transition shadow-lg shadow-blue-500/20 hover:scale-105 active:scale-95">
             M'écrire
           </a>
         </div>
@@ -145,26 +170,33 @@
 
 
   <!-- ==================== MODAL VIEWER D'IMAGES ==================== -->
-  <div id="image-modal" class="fixed inset-0 bg-black/90 z-50 modal-backdrop hidden flex-col justify-center items-center p-4">
+  <div id="image-modal"
+    class="fixed inset-0 bg-black/90 z-50 modal-backdrop hidden flex-col justify-center items-center p-4">
     <!-- Close Button -->
-    <button id="modal-close" class="absolute top-6 right-6 text-white text-3xl font-bold hover:scale-120 hover:text-red-400 transition transform z-10 p-2">
+    <button id="modal-close"
+      class="absolute top-6 right-6 text-white text-3xl font-bold hover:scale-120 hover:text-red-400 transition transform z-10 p-2">
       ✕
     </button>
 
     <!-- Prev Button -->
-    <button id="modal-prev" class="absolute left-4 sm:left-8 top-1/2 -translate-y-1/2 text-white text-5xl font-bold hover:scale-120 hover:text-blue-400 transition transform z-10 p-3 bg-black/40 rounded-full">
+    <button id="modal-prev"
+      class="absolute left-4 sm:left-8 top-1/2 -translate-y-1/2 text-white text-5xl font-bold hover:scale-120 hover:text-blue-400 transition transform z-10 p-3 bg-black/40 rounded-full">
       ‹
     </button>
 
     <!-- Next Button -->
-    <button id="modal-next" class="absolute right-4 sm:right-8 top-1/2 -translate-y-1/2 text-white text-5xl font-bold hover:scale-120 hover:text-blue-400 transition transform z-10 p-3 bg-black/40 rounded-full">
+    <button id="modal-next"
+      class="absolute right-4 sm:right-8 top-1/2 -translate-y-1/2 text-white text-5xl font-bold hover:scale-120 hover:text-blue-400 transition transform z-10 p-3 bg-black/40 rounded-full">
       ›
     </button>
 
     <!-- Image Container -->
     <div class="relative max-h-[85vh] max-w-[90vw] flex flex-col items-center">
-      <img id="modal-img" src="" alt="Aperçu projet" class="max-h-[80vh] max-w-full object-contain rounded-2xl shadow-2xl border border-gray-700">
-      <div id="modal-caption" class="text-gray-300 font-medium text-sm mt-3 bg-gray-900/80 px-4 py-1.5 rounded-full border border-gray-700"></div>
+      <img id="modal-img" src="" alt="Aperçu projet"
+        class="max-h-[80vh] max-w-full object-contain rounded-2xl shadow-2xl border border-gray-700">
+      <div id="modal-caption"
+        class="text-gray-300 font-medium text-sm mt-3 bg-gray-900/80 px-4 py-1.5 rounded-full border border-gray-700">
+      </div>
     </div>
   </div>
 
@@ -333,7 +365,7 @@
     const nextBtn = document.getElementById('modal-next');
     const closeBtn = document.getElementById('modal-close');
 
-    window.openModal = function(pIdx, iIdx) {
+    window.openModal = function (pIdx, iIdx) {
       currentProjIndex = pIdx;
       currentImgIndex = iIdx;
       updateModal();
@@ -350,7 +382,7 @@
       const proj = projects[currentProjIndex];
       modalImg.src = proj.images[currentImgIndex];
       modalCaption.textContent = `${proj.title} (${currentImgIndex + 1} / ${proj.images.length})`;
-      
+
       if (proj.images.length <= 1) {
         prevBtn.classList.add('hidden');
         nextBtn.classList.add('hidden');
@@ -444,4 +476,5 @@
     typewriter();
   </script>
 </body>
+
 </html>
