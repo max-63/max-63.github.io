@@ -1,13 +1,449 @@
-<!doctype html>
-<html lang="en" data-beasties-container>
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
 <head>
   <meta charset="utf-8">
-  <title>Portfolio</title>
-  <base href="https://max-63.github.io/">
+  <title>AdrienDev — Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio d'Adrien — Développeur Full Stack, TypeScript, Rust, Tailwind CSS & Python.">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
-<style>@layer properties;@layer theme,base,components,utilities;@layer theme{:root{--font-sans:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";--font-mono:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;--color-red-50:oklch(97.1% .013 17.38);--color-red-400:oklch(70.4% .191 22.216);--color-red-500:oklch(63.7% .237 25.331);--color-red-600:oklch(57.7% .245 27.325);--color-red-700:oklch(50.5% .213 27.518);--color-orange-600:oklch(64.6% .222 41.116);--color-yellow-50:oklch(98.7% .026 102.212);--color-yellow-100:oklch(97.3% .071 103.193);--color-yellow-200:oklch(94.5% .129 101.54);--color-yellow-300:oklch(90.5% .182 98.111);--color-yellow-400:oklch(85.2% .199 91.936);--color-yellow-500:oklch(79.5% .184 86.047);--color-green-100:oklch(96.2% .044 156.743);--color-green-300:oklch(87.1% .15 154.449);--color-green-400:oklch(79.2% .209 151.711);--color-green-500:oklch(72.3% .219 149.579);--color-green-600:oklch(62.7% .194 149.214);--color-green-700:oklch(52.7% .154 150.069);--color-green-900:oklch(39.3% .095 152.535);--color-green-950:oklch(26.6% .065 152.934);--color-blue-500:oklch(62.3% .214 259.815);--color-blue-600:oklch(54.6% .245 262.881);--color-blue-700:oklch(48.8% .243 264.376);--color-gray-200:oklch(92.8% .006 264.531);--color-gray-300:oklch(87.2% .01 258.338);--color-gray-400:oklch(70.7% .022 261.325);--color-gray-600:oklch(44.6% .03 256.802);--color-gray-700:oklch(37.3% .034 259.733);--color-gray-800:oklch(27.8% .033 256.848);--color-gray-900:oklch(21% .034 264.665);--color-zinc-300:oklch(87.1% .006 286.286);--color-zinc-400:oklch(70.5% .015 286.067);--color-zinc-500:oklch(55.2% .016 285.938);--color-zinc-600:oklch(44.2% .017 285.786);--color-zinc-700:oklch(37% .013 285.805);--color-black:#000;--color-white:#fff;--spacing:.25rem;--container-md:28rem;--container-lg:32rem;--container-3xl:48rem;--container-5xl:64rem;--text-sm:.875rem;--text-sm--line-height:calc(1.25 / .875);--text-base:1rem;--text-base--line-height:1.5 ;--text-lg:1.125rem;--text-lg--line-height:calc(1.75 / 1.125);--text-xl:1.25rem;--text-xl--line-height:calc(1.75 / 1.25);--text-2xl:1.5rem;--text-2xl--line-height:calc(2 / 1.5);--text-3xl:1.875rem;--text-3xl--line-height:1.2 ;--text-4xl:2.25rem;--text-4xl--line-height:calc(2.5 / 2.25);--text-5xl:3rem;--text-5xl--line-height:1;--text-6xl:3.75rem;--text-6xl--line-height:1;--font-weight-medium:500;--font-weight-semibold:600;--font-weight-bold:700;--font-weight-extrabold:800;--leading-relaxed:1.625;--radius-md:.375rem;--radius-lg:.5rem;--radius-xl:.75rem;--radius-2xl:1rem;--radius-3xl:1.5rem;--animate-bounce:bounce 1s infinite;--blur-sm:8px;--blur-md:12px;--default-transition-duration:.15s;--default-transition-timing-function:cubic-bezier(.4, 0, .2, 1);--default-font-family:var(--font-sans);--default-mono-font-family:var(--font-mono)}}@layer base{*,:after,:before{box-sizing:border-box;margin:0;padding:0;border:0 solid}html{line-height:1.5;-webkit-text-size-adjust:100%;tab-size:4;font-family:var(--default-font-family, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji");font-feature-settings:var(--default-font-feature-settings, normal);font-variation-settings:var(--default-font-variation-settings, normal);-webkit-tap-highlight-color:transparent}}@layer utilities{}@property --tw-translate-x{syntax:"*";inherits:false;initial-value:0;}@property --tw-translate-y{syntax:"*";inherits:false;initial-value:0;}@property --tw-translate-z{syntax:"*";inherits:false;initial-value:0;}@property --tw-rotate-x{syntax:"*";inherits:false;}@property --tw-rotate-y{syntax:"*";inherits:false;}@property --tw-rotate-z{syntax:"*";inherits:false;}@property --tw-skew-x{syntax:"*";inherits:false;}@property --tw-skew-y{syntax:"*";inherits:false;}@property --tw-space-y-reverse{syntax:"*";inherits:false;initial-value:0;}@property --tw-border-style{syntax:"*";inherits:false;initial-value:solid;}@property --tw-gradient-position{syntax:"*";inherits:false;}@property --tw-gradient-from{syntax:"<color>";inherits:false;initial-value:#0000;}@property --tw-gradient-via{syntax:"<color>";inherits:false;initial-value:#0000;}@property --tw-gradient-to{syntax:"<color>";inherits:false;initial-value:#0000;}@property --tw-gradient-stops{syntax:"*";inherits:false;}@property --tw-gradient-via-stops{syntax:"*";inherits:false;}@property --tw-gradient-from-position{syntax:"<length-percentage>";inherits:false;initial-value:0%;}@property --tw-gradient-via-position{syntax:"<length-percentage>";inherits:false;initial-value:50%;}@property --tw-gradient-to-position{syntax:"<length-percentage>";inherits:false;initial-value:100%;}@property --tw-leading{syntax:"*";inherits:false;}@property --tw-font-weight{syntax:"*";inherits:false;}@property --tw-shadow{syntax:"*";inherits:false;initial-value:0 0 #0000;}@property --tw-shadow-color{syntax:"*";inherits:false;}@property --tw-shadow-alpha{syntax:"<percentage>";inherits:false;initial-value:100%;}@property --tw-inset-shadow{syntax:"*";inherits:false;initial-value:0 0 #0000;}@property --tw-inset-shadow-color{syntax:"*";inherits:false;}@property --tw-inset-shadow-alpha{syntax:"<percentage>";inherits:false;initial-value:100%;}@property --tw-ring-color{syntax:"*";inherits:false;}@property --tw-ring-shadow{syntax:"*";inherits:false;initial-value:0 0 #0000;}@property --tw-inset-ring-color{syntax:"*";inherits:false;}@property --tw-inset-ring-shadow{syntax:"*";inherits:false;initial-value:0 0 #0000;}@property --tw-ring-inset{syntax:"*";inherits:false;}@property --tw-ring-offset-width{syntax:"<length>";inherits:false;initial-value:0px;}@property --tw-ring-offset-color{syntax:"*";inherits:false;initial-value:#fff;}@property --tw-ring-offset-shadow{syntax:"*";inherits:false;initial-value:0 0 #0000;}@property --tw-blur{syntax:"*";inherits:false;}@property --tw-brightness{syntax:"*";inherits:false;}@property --tw-contrast{syntax:"*";inherits:false;}@property --tw-grayscale{syntax:"*";inherits:false;}@property --tw-hue-rotate{syntax:"*";inherits:false;}@property --tw-invert{syntax:"*";inherits:false;}@property --tw-opacity{syntax:"*";inherits:false;}@property --tw-saturate{syntax:"*";inherits:false;}@property --tw-sepia{syntax:"*";inherits:false;}@property --tw-drop-shadow{syntax:"*";inherits:false;}@property --tw-drop-shadow-color{syntax:"*";inherits:false;}@property --tw-drop-shadow-alpha{syntax:"<percentage>";inherits:false;initial-value:100%;}@property --tw-drop-shadow-size{syntax:"*";inherits:false;}@property --tw-backdrop-blur{syntax:"*";inherits:false;}@property --tw-backdrop-brightness{syntax:"*";inherits:false;}@property --tw-backdrop-contrast{syntax:"*";inherits:false;}@property --tw-backdrop-grayscale{syntax:"*";inherits:false;}@property --tw-backdrop-hue-rotate{syntax:"*";inherits:false;}@property --tw-backdrop-invert{syntax:"*";inherits:false;}@property --tw-backdrop-opacity{syntax:"*";inherits:false;}@property --tw-backdrop-saturate{syntax:"*";inherits:false;}@property --tw-backdrop-sepia{syntax:"*";inherits:false;}@property --tw-duration{syntax:"*";inherits:false;}@property --tw-scale-x{syntax:"*";inherits:false;initial-value:1;}@property --tw-scale-y{syntax:"*";inherits:false;initial-value:1;}@property --tw-scale-z{syntax:"*";inherits:false;initial-value:1;}@layer properties{@supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))){*,:before,:after{--tw-translate-x:0;--tw-translate-y:0;--tw-translate-z:0;--tw-rotate-x:initial;--tw-rotate-y:initial;--tw-rotate-z:initial;--tw-skew-x:initial;--tw-skew-y:initial;--tw-space-y-reverse:0;--tw-border-style:solid;--tw-gradient-position:initial;--tw-gradient-from:#0000;--tw-gradient-via:#0000;--tw-gradient-to:#0000;--tw-gradient-stops:initial;--tw-gradient-via-stops:initial;--tw-gradient-from-position:0%;--tw-gradient-via-position:50%;--tw-gradient-to-position:100%;--tw-leading:initial;--tw-font-weight:initial;--tw-shadow:0 0 #0000;--tw-shadow-color:initial;--tw-shadow-alpha:100%;--tw-inset-shadow:0 0 #0000;--tw-inset-shadow-color:initial;--tw-inset-shadow-alpha:100%;--tw-ring-color:initial;--tw-ring-shadow:0 0 #0000;--tw-inset-ring-color:initial;--tw-inset-ring-shadow:0 0 #0000;--tw-ring-inset:initial;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-offset-shadow:0 0 #0000;--tw-blur:initial;--tw-brightness:initial;--tw-contrast:initial;--tw-grayscale:initial;--tw-hue-rotate:initial;--tw-invert:initial;--tw-opacity:initial;--tw-saturate:initial;--tw-sepia:initial;--tw-drop-shadow:initial;--tw-drop-shadow-color:initial;--tw-drop-shadow-alpha:100%;--tw-drop-shadow-size:initial;--tw-backdrop-blur:initial;--tw-backdrop-brightness:initial;--tw-backdrop-contrast:initial;--tw-backdrop-grayscale:initial;--tw-backdrop-hue-rotate:initial;--tw-backdrop-invert:initial;--tw-backdrop-opacity:initial;--tw-backdrop-saturate:initial;--tw-backdrop-sepia:initial;--tw-duration:initial;--tw-scale-x:1;--tw-scale-y:1;--tw-scale-z:1}}}</style><link rel="stylesheet" href="styles-TYBC4IPG.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles-TYBC4IPG.css"></noscript></head>
-<body>
-  <app-root></app-root>
-<script src="polyfills-5CFQRCPP.js" type="module"></script><script src="main-46HNBD2J.js" type="module"></script></body>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: '#2563eb',
+          },
+          animation: {
+            'bounce-slow': 'bounce 2s infinite',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    .console-cursor {
+      animation: blink 0.8s step-start infinite;
+    }
+    /* Style pour modal zoom */
+    .modal-backdrop {
+      backdrop-filter: blur(8px);
+    }
+  </style>
+</head>
+<body class="bg-gray-900 text-white font-sans antialiased selection:bg-blue-600 selection:text-white">
+
+  <!-- ==================== HERO / A PROPOS ==================== -->
+  <section class="min-h-screen bg-gray-900 flex flex-col justify-center items-center text-center text-white relative px-4 sm:px-6 pt-12 pb-20">
+    <div class="max-w-3xl flex flex-col items-center">
+      <!-- Photo de Profil -->
+      <div class="flex items-center justify-center w-40 h-40 sm:w-48 sm:h-48 rounded-full overflow-hidden mb-6 border-4 border-gray-800 shadow-2xl ring-4 ring-blue-500/20">
+        <img src="pp.png" alt="Photo de profil Adrien" class="w-full h-full object-cover">
+      </div>
+
+      <!-- Titre & Présentation -->
+      <h1 class="text-3xl sm:text-5xl font-black mb-4 tracking-tight">À propos de moi</h1>
+      <p class="text-xl sm:text-2xl font-bold text-blue-400 mb-4">Je m'appelle Adrien.</p>
+      
+      <p class="text-base sm:text-lg text-gray-300 mb-4 leading-relaxed max-w-2xl">
+        Développeur autodidacte depuis plusieurs années, je suis passionné par le développement web, les applications bureau et la création de projets interactifs. Mon parcours a commencé avec des projets personnels où j'explorais HTML, CSS et JavaScript pour donner vie à mes idées.
+      </p>
+
+      <p class="text-base sm:text-lg text-gray-400 mb-6 leading-relaxed max-w-2xl">
+        Aujourd'hui, je conçois des interfaces modernes, robustes et performantes adaptées à des environnements réels et exigeants. Curieux et motivé, j'aime relever de nouveaux défis techniques tout en apprenant constamment de nouvelles technologies.
+      </p>
+
+      <!-- Terminal Typewriter Console -->
+      <div class="mt-4 text-base sm:text-2xl font-mono text-gray-200 flex justify-center items-center bg-gray-800/80 px-6 py-3 rounded-2xl border border-gray-700/80 shadow-xl">
+        <span class="text-blue-400 mr-2">&gt;</span>
+        <span id="text" class="font-bold min-h-[1.5em] flex items-center"></span>
+        <span id="console" class="console-cursor text-blue-400 font-extrabold ml-1">_</span>
+      </div>
+    </div>
+
+    <!-- Scroll Indicator -->
+    <a href="#competences" class="absolute bottom-6 animate-bounce-slow text-gray-400 hover:text-white transition p-2">
+      <svg class="w-8 h-8" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"></path>
+      </svg>
+    </a>
+  </section>
+
+
+  <!-- ==================== COMPETENCES ==================== -->
+  <section id="competences" class="py-20 bg-gray-800/90 flex justify-center text-center text-white border-y border-gray-700/50">
+    <div class="max-w-5xl px-6 w-full">
+      <h2 class="text-3xl sm:text-4xl font-extrabold mb-12 tracking-tight">Mes compétences</h2>
+      
+      <div id="skills-grid" class="flex flex-wrap justify-center gap-6 sm:gap-8 items-center">
+        <!-- Rempli dynamiquement en JS avec les logos SVG/PNG -->
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==================== PROJETS ==================== -->
+  <section id="projets" class="py-24 bg-gray-900 flex flex-col justify-center items-center text-center text-white">
+    <div class="w-full max-w-[1600px] px-6">
+      <h2 class="text-4xl sm:text-5xl font-black mb-4 tracking-tight">Mes projets</h2>
+      <p class="text-gray-400 text-lg mb-16 max-w-2xl mx-auto">
+        Découvrez une sélection de mes réalisations web, logicielles et associatives.
+      </p>
+
+      <div id="projects-grid" class="grid grid-cols-1 md:grid-cols-2 gap-10 sm:gap-14 justify-items-center">
+        <!-- Rempli dynamiquement en JS -->
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==================== CONTACT ==================== -->
+  <section id="contact" class="py-20 bg-gray-800 flex flex-col justify-center items-center text-center text-white border-t border-gray-700/50">
+    <div class="max-w-4xl px-6 w-full">
+      <h2 class="text-3xl sm:text-4xl font-black mb-12 tracking-tight">Contactez-moi</h2>
+
+      <div class="grid sm:grid-cols-2 gap-8">
+        <!-- Réseaux -->
+        <div class="bg-gray-900/80 rounded-3xl border border-gray-700/60 p-8 shadow-xl hover:border-gray-600 transition flex flex-col items-center justify-center">
+          <h3 class="text-xl sm:text-2xl font-bold mb-6 flex items-center gap-2">
+            <span>🌐</span> Mes réseaux
+          </h3>
+          <div class="flex justify-center items-center gap-6">
+            <a href="https://github.com/max-63" target="_blank" rel="noopener noreferrer" title="GitHub" class="hover:scale-110 transition-transform">
+              <img src="github.svg" alt="GitHub" class="w-12 h-12">
+            </a>
+            <a href="https://instagram.com/adriencourault2020" target="_blank" rel="noopener noreferrer" title="Instagram" class="hover:scale-110 transition-transform">
+              <img src="instagramm.svg" alt="Instagram" class="w-12 h-12">
+            </a>
+            <a href="https://discord.com/users/1125086940409122836" target="_blank" rel="noopener noreferrer" title="Discord" class="hover:scale-110 transition-transform">
+              <img src="discord.svg" alt="Discord" class="w-12 h-12">
+            </a>
+          </div>
+        </div>
+
+        <!-- Email -->
+        <div class="bg-gray-900/80 rounded-3xl border border-gray-700/60 p-8 shadow-xl hover:border-gray-600 transition flex flex-col items-center justify-center">
+          <h3 class="text-xl sm:text-2xl font-bold mb-6 flex items-center gap-2">
+            <span>📧</span> Envoyer un mail
+          </h3>
+          <a href="mailto:adriencouralt@outlook.fr" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-3.5 px-8 rounded-xl transition shadow-lg shadow-blue-500/20 hover:scale-105 active:scale-95">
+            M'écrire
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="py-8 bg-gray-950 text-gray-500 text-sm text-center border-t border-gray-800">
+    <p>© 2026 Adrien Courault (AdrienDev). Tous droits réservés.</p>
+  </footer>
+
+
+  <!-- ==================== MODAL VIEWER D'IMAGES ==================== -->
+  <div id="image-modal" class="fixed inset-0 bg-black/90 z-50 modal-backdrop hidden flex-col justify-center items-center p-4">
+    <!-- Close Button -->
+    <button id="modal-close" class="absolute top-6 right-6 text-white text-3xl font-bold hover:scale-120 hover:text-red-400 transition transform z-10 p-2">
+      ✕
+    </button>
+
+    <!-- Prev Button -->
+    <button id="modal-prev" class="absolute left-4 sm:left-8 top-1/2 -translate-y-1/2 text-white text-5xl font-bold hover:scale-120 hover:text-blue-400 transition transform z-10 p-3 bg-black/40 rounded-full">
+      ‹
+    </button>
+
+    <!-- Next Button -->
+    <button id="modal-next" class="absolute right-4 sm:right-8 top-1/2 -translate-y-1/2 text-white text-5xl font-bold hover:scale-120 hover:text-blue-400 transition transform z-10 p-3 bg-black/40 rounded-full">
+      ›
+    </button>
+
+    <!-- Image Container -->
+    <div class="relative max-h-[85vh] max-w-[90vw] flex flex-col items-center">
+      <img id="modal-img" src="" alt="Aperçu projet" class="max-h-[80vh] max-w-full object-contain rounded-2xl shadow-2xl border border-gray-700">
+      <div id="modal-caption" class="text-gray-300 font-medium text-sm mt-3 bg-gray-900/80 px-4 py-1.5 rounded-full border border-gray-700"></div>
+    </div>
+  </div>
+
+
+  <!-- ==================== SCRIPT VANILLA JS ==================== -->
+  <script>
+    // --- ICON MAPPINGS ---
+    const iconMap = {
+      angular: "angular.svg",
+      discord: "discord.svg",
+      discorjds: "discorjds.svg",
+      django: "django.svg",
+      docker: "docker.png",
+      fastapi: "fastapi.svg",
+      git: "git.png",
+      github: "github.svg",
+      instagramm: "instagramm.svg",
+      java: "java.svg",
+      mysql: "mysql.png",
+      nextjs: "nextjs.png",
+      nodejs: "nodejs.svg",
+      react: "react.svg",
+      tailwindcss: "tailwindcss.svg",
+      typescript: "typescript.svg",
+      postgresql: "postgresql.svg",
+      python: "python.svg",
+      html: "html.svg",
+      css: "css.svg",
+      javascript: "javascript.svg",
+      bootstrap: "boostrap.svg",
+      linux: "linux.svg",
+      tauri: "tauri.svg",
+      sqlite: "postgresql.svg"
+    };
+
+    // --- SKILLS LIST ---
+    const skills = [
+      { name: "Angular", icon: "angular.svg" },
+      { name: "Discord.js", icon: "discorjds.svg" },
+      { name: "Django", icon: "django.svg" },
+      { name: "Java", icon: "java.svg" },
+      { name: "Node.js", icon: "nodejs.svg" },
+      { name: "React", icon: "react.svg" },
+      { name: "Next.js", icon: "nextjs.png" },
+      { name: "Tailwind CSS", icon: "tailwindcss.svg" },
+      { name: "MySQL", icon: "mysql.png" },
+      { name: "Git", icon: "git.png" },
+      { name: "Docker", icon: "docker.png" },
+      { name: "FastAPI", icon: "fastapi.svg" },
+      { name: "PostgreSQL", icon: "postgresql.svg" },
+      { name: "JavaScript", icon: "javascript.svg" },
+      { name: "Python", icon: "python.svg" },
+      { name: "HTML", icon: "html.svg" },
+      { name: "CSS", icon: "css.svg" },
+      { name: "TypeScript", icon: "typescript.svg" },
+      { name: "PyTorch", icon: "pytorch.svg" },
+      { name: "TensorFlow", icon: "tensorflow.svg" },
+      { name: "VSCode", icon: "vscode.svg" },
+      { name: "Linux", icon: "linux.svg" },
+      { name: "Bootstrap", icon: "boostrap.svg" },
+      { name: "Tauri", icon: "tauri.svg" }
+    ];
+
+    const skillsContainer = document.getElementById('skills-grid');
+    skills.forEach(s => {
+      const card = document.createElement('div');
+      card.className = "w-20 h-20 bg-gray-900/60 border border-gray-700/60 flex items-center justify-center rounded-2xl hover:scale-115 hover:border-blue-500/50 hover:bg-gray-800 transition-all duration-200 shadow-md";
+      card.title = s.name;
+      card.innerHTML = `<img src="${s.icon}" alt="${s.name}" class="max-w-full max-h-full object-contain p-3.5">`;
+      skillsContainer.appendChild(card);
+    });
+
+    // --- PROJECTS LIST ---
+    const projects = [
+      {
+        title: "OpenMDL — Caisse & Gestion Foyer",
+        description: "Application desktop moderne et autonome de caisse enregistreuse tactile (POS) et de gestion de foyer pour les Maisons des Lycéens (MDL/CVL). Comprend la gestion des stocks, réductions adhérents, TPE SumUp Solo, architecture réseau LAN, moteur d'addons et base SQLite native.",
+        images: ["openmdl-pos.png", "openmdl-pos-light.png", "openmdl-stats.png", "openmdl-banner.png"],
+        languages: ["Tauri", "TypeScript", "TailwindCSS", "HTML", "CSS", "Git", "Linux"],
+        icons: ["tauri.svg", "typescript.svg", "tailwindcss.svg", "html.svg", "css.svg", "git.png", "linux.svg"],
+        link: "https://github.com/max-63/OpenMDL"
+      },
+      {
+        title: "Facturo",
+        description: "Application web de gestion des factures et des clients, des paiements, des produits et des services.",
+        images: ["facturo.png"],
+        languages: ["Angular", "Node.js", "Django", "PostgreSQL", "Docker", "TailwindCSS", "TypeScript", "HTML", "CSS", "Git"],
+        icons: ["angular.svg", "django.svg", "postgresql.svg", "docker.png", "tailwindcss.svg", "typescript.svg"],
+        link: ""
+      },
+      {
+        title: "Dashboard Server",
+        description: "Application web de gestion des serveurs, des utilisateurs et des permissions.",
+        images: ["dashboard.png"],
+        languages: ["Django", "Docker", "Git", "Bootstrap", "PostgreSQL"],
+        icons: ["django.svg", "docker.png", "git.png", "boostrap.svg", "postgresql.svg"],
+        link: ""
+      },
+      {
+        title: "Site web Minecraft",
+        description: "Site web de présentation d'un serveur Minecraft avec une présentation complète du serveur et une boutique en ligne avec interface d'administration et un système de paiement en ligne.",
+        images: ["minecraft1.png", "minecraft2.png", "minecraft3.png"],
+        languages: ["FastAPI", "Angular", "TypeScript", "Docker", "TailwindCSS", "PostgreSQL"],
+        icons: ["fastapi.svg", "angular.svg", "typescript.svg", "docker.png", "tailwindcss.svg", "postgresql.svg"],
+        link: ""
+      }
+    ];
+
+    // Rendu des Projets
+    const projectsContainer = document.getElementById('projects-grid');
+    projects.forEach((proj, pIndex) => {
+      const card = document.createElement('div');
+      card.className = "group relative bg-gray-800 rounded-3xl shadow-2xl overflow-hidden hover:scale-[1.02] border border-gray-700/60 hover:border-blue-500/40 transition-all duration-300 w-full flex flex-col justify-between text-left";
+
+      // Tags icons HTML
+      const tagsHtml = proj.icons.map(icon => `
+        <span class="flex items-center gap-1.5 bg-gray-900/85 backdrop-blur-sm px-3 py-1 rounded-full border border-gray-700 shadow-md">
+          <img src="${icon}" alt="" class="w-4 h-4 object-contain">
+        </span>
+      `).join('');
+
+      // Extra action button if link exists
+      const linkHtml = proj.link ? `
+        <div class="mt-4">
+          <a href="${proj.link}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 bg-blue-600 text-white font-bold py-2.5 px-5 rounded-xl hover:bg-blue-700 transition shadow-md shadow-blue-500/20 text-sm">
+            <span>Voir le code GitHub</span>
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+          </a>
+        </div>
+      ` : '';
+
+      card.innerHTML = `
+        <div class="relative w-full h-[320px] sm:h-[400px] cursor-pointer overflow-hidden bg-gray-950" onclick="openModal(${pIndex}, 0)">
+          <img src="${proj.images[0]}" alt="${proj.title}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+          
+          ${proj.images.length > 1 ? `
+            <div class="absolute top-4 right-4 bg-gray-900/85 text-xs text-white px-3 py-1 rounded-full font-mono border border-gray-700">
+              +${proj.images.length - 1} photos
+            </div>
+          ` : ''}
+
+          <div class="absolute bottom-4 right-4 flex flex-wrap justify-end gap-1.5 opacity-90 sm:opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            ${tagsHtml}
+          </div>
+        </div>
+
+        <div class="p-6 sm:p-8 flex-1 flex flex-col justify-between">
+          <div>
+            <h3 class="text-2xl sm:text-3xl font-extrabold text-white mb-3 tracking-tight">${proj.title}</h3>
+            <p class="text-gray-300 leading-relaxed text-sm sm:text-base">${proj.description}</p>
+          </div>
+          ${linkHtml}
+        </div>
+      `;
+      projectsContainer.appendChild(card);
+    });
+
+    // --- MODAL VIEWER LOGIC ---
+    let currentProjIndex = 0;
+    let currentImgIndex = 0;
+
+    const modal = document.getElementById('image-modal');
+    const modalImg = document.getElementById('modal-img');
+    const modalCaption = document.getElementById('modal-caption');
+    const prevBtn = document.getElementById('modal-prev');
+    const nextBtn = document.getElementById('modal-next');
+    const closeBtn = document.getElementById('modal-close');
+
+    window.openModal = function(pIdx, iIdx) {
+      currentProjIndex = pIdx;
+      currentImgIndex = iIdx;
+      updateModal();
+      modal.classList.remove('hidden');
+      modal.classList.add('flex');
+    };
+
+    function closeModal() {
+      modal.classList.add('hidden');
+      modal.classList.remove('flex');
+    }
+
+    function updateModal() {
+      const proj = projects[currentProjIndex];
+      modalImg.src = proj.images[currentImgIndex];
+      modalCaption.textContent = `${proj.title} (${currentImgIndex + 1} / ${proj.images.length})`;
+      
+      if (proj.images.length <= 1) {
+        prevBtn.classList.add('hidden');
+        nextBtn.classList.add('hidden');
+      } else {
+        prevBtn.classList.remove('hidden');
+        nextBtn.classList.remove('hidden');
+      }
+    }
+
+    prevBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const proj = projects[currentProjIndex];
+      currentImgIndex = (currentImgIndex - 1 + proj.images.length) % proj.images.length;
+      updateModal();
+    });
+
+    nextBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const proj = projects[currentProjIndex];
+      currentImgIndex = (currentImgIndex + 1) % proj.images.length;
+      updateModal();
+    });
+
+    closeBtn.addEventListener('click', closeModal);
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) closeModal();
+    });
+    document.addEventListener('keydown', (e) => {
+      if (!modal.classList.contains('hidden')) {
+        if (e.key === 'Escape') closeModal();
+        if (e.key === 'ArrowLeft') prevBtn.click();
+        if (e.key === 'ArrowRight') nextBtn.click();
+      }
+    });
+
+    // --- TERMINAL TYPEWRITER ANIMATION (From original) ---
+    const words = [
+      "Full Stack Developer.",
+      "Tauri & Rust Crafter.",
+      "React & Next.js.",
+      "Angular Expert.",
+      "Node.js & FastAPI.",
+      "Django Master.",
+      "Tailwind CSS Wizard.",
+      "TypeScript Enthusiast.",
+      "Python Programmer.",
+      "Database Guru (SQLite/PostgreSQL).",
+      "Docker & Git Pro.",
+      "Front-end & Back-end.",
+      "Creative & Passionate.",
+      "Problem Solver.",
+      "Tech Innovator."
+    ];
+
+    const colors = [
+      "tomato", "YellowGreen", "DeepSkyBlue", "orange", "violet", "cyan",
+      "gold", "lime", "deeppink", "aqua", "lightcoral", "mediumslateblue", "khaki", "lightseagreen"
+    ];
+
+    let wordIdx = 0;
+    let letterIdx = 1;
+    let isDeleting = false;
+    const textElement = document.getElementById("text");
+
+    function typewriter() {
+      const currentWord = words[wordIdx];
+      const currentColor = colors[wordIdx % colors.length];
+      textElement.style.color = currentColor;
+
+      if (!isDeleting) {
+        textElement.textContent = currentWord.substring(0, letterIdx);
+        letterIdx++;
+        if (letterIdx > currentWord.length) {
+          isDeleting = true;
+          setTimeout(typewriter, 1200);
+          return;
+        }
+      } else {
+        textElement.textContent = currentWord.substring(0, letterIdx);
+        letterIdx--;
+        if (letterIdx < 0) {
+          isDeleting = false;
+          letterIdx = 1;
+          wordIdx = (wordIdx + 1) % words.length;
+          setTimeout(typewriter, 400);
+          return;
+        }
+      }
+      setTimeout(typewriter, isDeleting ? 60 : 110);
+    }
+    typewriter();
+  </script>
+</body>
 </html>
